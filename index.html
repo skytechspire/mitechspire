@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MI | Web Developer</title>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    header { background: #1a1a1a; color: white; padding: 2rem 1rem; text-align: center; }
+    section { padding: 2rem 1rem; max-width: 900px; margin: auto; }
+    h1, h2 { color: #222; }
+    .services, .portfolio { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex: 1; min-width: 250px; }
+    footer { text-align: center; padding: 1rem; background: #1a1a1a; color: white; }
+    input, textarea { width: 100%; padding: 0.75rem; margin: 0.5rem 0; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #1a1a1a; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MI</h1>
+  <p>Web Developer | UI Designer | IT Consultant</p>
+</header>
+
+<section>
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Website Design</h3>
+      <p>Modern, responsive websites tailored to your business.</p>
+    </div>
+    <div class="card">
+      <h3>WordPress Development</h3>
+      <p>Custom themes and plugin integrations.</p>
+    </div>
+    <div class="card">
+      <h3>Maintenance & Support</h3>
+      <p>Monthly support for small businesses and eCommerce sites.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Portfolio</h2>
+  <div class="portfolio">
+    <div class="card">
+      <h3>Project One</h3>
+      <p>A business website for a local brand.</p>
+    </div>
+    <div class="card">
+      <h3>Project Two</h3>
+      <p>Landing page for a marketing campaign.</p>
+    </div>
+    <div class="card">
+      <h3>Project Three</h3>
+      <p>E-commerce shop with payment integration.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About Me</h2>
+  <p>I’m a web developer based in [Dhaka], Bangladesh. I build fast, modern websites for startups, professionals, and small businesses worldwide. Let’s build something great together!</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <form action="https://formspree.io/f/mqaqvybd" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="_replyto" placeholder="Your Email" required />
+    <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 MI. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
